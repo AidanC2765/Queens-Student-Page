@@ -80,5 +80,6 @@ if __name__ == "__main__":
     if len(files) != 2:
         print("⚠️ Please select exactly two Excel files.")
     else:
-        output_file_path = r"E:\Work for dad's office\Test\Comparing sheets\model_number_differences.xlsx"
+        output_file_path = r"Enter your file path location here"
         compare_model_numbers_only(files[0], files[1], output_file_path, key_column="Model_Number")
+
